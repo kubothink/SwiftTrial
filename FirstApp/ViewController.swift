@@ -1,4 +1,4 @@
-//
+  //
 //  ViewController.swift
 //  FirstApp
 //
@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // この1行を追加
+        label.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +25,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(sender: AnyObject) {
+        // 下記5行を追加
+        if label.hidden == true {
+            label.hidden = false
+        } else {
+            label.hidden = true
+        }
+    }
 }
 
