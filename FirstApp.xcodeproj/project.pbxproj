@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7696886C1B097FA400A115C8 /* neko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7696886B1B097FA400A115C8 /* neko.jpg */; };
 		76FFEA231AE966CC0044F7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFEA221AE966CC0044F7E9 /* AppDelegate.swift */; };
 		76FFEA251AE966CC0044F7E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFEA241AE966CC0044F7E9 /* ViewController.swift */; };
 		76FFEA281AE966CC0044F7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FFEA261AE966CC0044F7E9 /* Main.storyboard */; };
 		76FFEA2A1AE966CC0044F7E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FFEA291AE966CC0044F7E9 /* Images.xcassets */; };
 		76FFEA2D1AE966CC0044F7E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FFEA2B1AE966CC0044F7E9 /* LaunchScreen.xib */; };
 		76FFEA391AE966CC0044F7E9 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFEA381AE966CC0044F7E9 /* FirstAppTests.swift */; };
-		76FFEA471AE967E40044F7E9 /* neko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76FFEA461AE967E40044F7E9 /* neko.jpg */; };
 		76FFEA491AE9681B0044F7E9 /* fukidashi.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FFEA481AE9681B0044F7E9 /* fukidashi.png */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7696886B1B097FA400A115C8 /* neko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko.jpg; sourceTree = "<group>"; };
 		76FFEA1D1AE966CC0044F7E9 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FFEA211AE966CC0044F7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FFEA221AE966CC0044F7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		76FFEA321AE966CC0044F7E9 /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FFEA371AE966CC0044F7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FFEA381AE966CC0044F7E9 /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
-		76FFEA461AE967E40044F7E9 /* neko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko.jpg; sourceTree = "<group>"; };
 		76FFEA481AE9681B0044F7E9 /* fukidashi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +63,7 @@
 		76FFEA141AE966CC0044F7E9 = {
 			isa = PBXGroup;
 			children = (
-				76FFEA461AE967E40044F7E9 /* neko.jpg */,
+				7696886B1B097FA400A115C8 /* neko.jpg */,
 				76FFEA481AE9681B0044F7E9 /* fukidashi.png */,
 				76FFEA1F1AE966CC0044F7E9 /* FirstApp */,
 				76FFEA351AE966CC0044F7E9 /* FirstAppTests */,
@@ -198,8 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FFEA471AE967E40044F7E9 /* neko.jpg in Resources */,
 				76FFEA281AE966CC0044F7E9 /* Main.storyboard in Resources */,
+				7696886C1B097FA400A115C8 /* neko.jpg in Resources */,
 				76FFEA2D1AE966CC0044F7E9 /* LaunchScreen.xib in Resources */,
 				76FFEA491AE9681B0044F7E9 /* fukidashi.png in Resources */,
 				76FFEA2A1AE966CC0044F7E9 /* Images.xcassets in Resources */,
@@ -417,6 +417,7 @@
 				76FFEA3E1AE966CC0044F7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76FFEA3F1AE966CC0044F7E9 /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				76FFEA411AE966CC0044F7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
