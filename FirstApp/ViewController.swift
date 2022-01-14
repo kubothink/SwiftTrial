@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // この1行を追加
-        label.hidden = true
+        label.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,10 +27,10 @@ class ViewController: UIViewController {
 
     @IBAction func buttonTapped(sender: AnyObject) {
         // 下記5行を追加
-        if label.hidden == true {
-            label.hidden = false
+        if label.isHidden == true {
+            label.isHidden = false
         } else {
-            label.hidden = true
+            label.isHidden = true
         }
     }
 }
